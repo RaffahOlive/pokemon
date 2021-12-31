@@ -1,0 +1,15 @@
+
+<div *ngIf="resultado">
+    <div *ngFor="let result of resultado.results">
+          
+        <app-specific-pokemon [result]="result"></app-specific-pokemon> 
+        
+    </div>
+    <mat-paginator [length]="resultado.count"
+              [pageSize]="20"
+              [pageSizeOptions]="[5, 10, 25, 100]"
+              hidePageSize="true"
+              aria-label="Select page"
+              (page)="getNextPreviousPokemon($event)">>
+    </mat-paginator>    
+</div>

@@ -1,0 +1,37 @@
+.imgPkn{
+    width: 98px;
+    height: 96px;
+    left: 92px;
+    top: 280px;
+
+    /* advise / primary / plight */
+
+    border: 1px solid #565656;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.title{
+    text-transform: lowercase;
+    height: 24px;
+    left: 207px;
+    right: 1101px;
+    top: 280px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+.description{
+
+    height: 57px;
+    left: 207px;
+    right: 418px;
+    top: 304px;
+
+}
+.rigth{
+    display: flex;
+}

@@ -1,0 +1,39 @@
+.header {
+  position: absolute;
+  width: 1550px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #020202;
+}
+
+.example-header-image {
+  position: absolute;
+  width: 98px;
+  height: 96px;
+  left: 92px;
+  top: 280px;
+
+  background: url(https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png);
+
+  border: 1px solid #565656;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.text {
+  position: absolute;
+  height: 24px;
+  left: 207px;
+  right: 1101px;
+  top: 280px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: rgba(0, 0, 0, 0.87);
+}
